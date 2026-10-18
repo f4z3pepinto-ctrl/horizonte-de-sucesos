@@ -3,23 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Horizonte de Sucesos</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-   <header class="barra-superior">
-        <a class="logo" href="index.html">
-            HORIZONTE <span class="logo-punto">●</span> <span class="logo-secundario">de sucesos</span>
-        </a>
+  <header class="barra-superior">
+    <a class="logo" href="index.html">
+      HORIZONTE <span class="logo-punto">●</span> <span class="logo-secundario">de sucesos</span>
+    </a>
 
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a class="activo" href="index.html#articulos">Artículos</a>
-            <a href="index.html#contacto">Contacto</a>
-        </nav>
-    </header>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a class="activo" href="index.html#articulos">Artículos</a>
+      <a href="index.html#contacto">Contacto</a>
+    </nav>
+  </header>
 
   <main>
     <section class="portada">
@@ -51,7 +50,7 @@
         <h2>Una ventana<br>hacia lo desconocido.</h2>
         <p>
           Somos una web creada para los amantes de la
-          <strong id="Astronomia">astronomía</strong> por mi.
+          <strong id="Astronomia">astronomía</strong>.
           Soy Matías y quiero acercarte a los misterios del universo con
           información clara, interesante y fácil de explorar.
         </p>
@@ -64,15 +63,12 @@
           <p class="sobrelinea"><span></span> LEE Y DESCUBRE</p>
           <h2>Explora el universo<span class="punto-amarillo">.</span></h2>
         </div>
-        <span class="contador">02 ARTÍCULOS</span>
+        <span class="contador">05 ARTÍCULOS</span>
       </div>
 
       <article class="articulo">
         <a class="articulo-imagen" href="agujeros_negros.html">
-          <img
-            src="agujeros_negros.jpeg"
-            alt="Agujero negro rodeado por un disco de luz"
-          >
+          <img src="agujeros_negros.jpeg" alt="Agujero negro rodeado por un disco de luz">
           <span class="flecha-imagen">↗</span>
         </a>
 
@@ -91,10 +87,7 @@
 
       <article class="articulo articulo-invertido">
         <a class="articulo-imagen" href="Cuasares.html">
-          <img
-            src="cuasares.jpeg"
-            alt="Representación de un cuásar brillante"
-          >
+          <img src="cuasares.jpeg" alt="Representación de un cuásar brillante">
           <span class="flecha-imagen">↗</span>
         </a>
 
@@ -110,12 +103,10 @@
           </a>
         </div>
       </article>
-      <article class="articulo articulo-invertido">
+
+      <article class="articulo">
         <a class="articulo-imagen" href="galaxias.html">
-          <img
-            src="galaxia.jpeg"
-            alt="Imagen de una galaxia"
-          >
+          <img src="galaxia.jpeg" alt="Imagen de una galaxia">
           <span class="flecha-imagen">↗</span>
         </a>
 
@@ -123,19 +114,18 @@
           <p class="categoria">COSMOS · GALAXIAS</p>
           <h3><a href="galaxias.html">Galaxias</a></h3>
           <p>
-            Un enorme sistema que agrupa miles de millones de estrellas, planetas, gas, polvo cósmico y materia oscura, todo mantenido unido por la fuerza de gravedad.
+            Enormes sistemas que agrupan miles de millones de estrellas,
+            planetas, gas, polvo cósmico y materia oscura, unidos por la gravedad.
           </p>
           <a class="leer-mas" href="galaxias.html">
             Leer artículo <span>→</span>
           </a>
         </div>
       </article>
+
       <article class="articulo articulo-invertido">
         <a class="articulo-imagen" href="estrellas.html">
-          <img
-            src="estrellas.jpeg"
-            alt="Imagen de una nebulosa con estrellas"
-          >
+          <img src="estrellas.jpeg" alt="Imagen de una nebulosa con estrellas">
           <span class="flecha-imagen">↗</span>
         </a>
 
@@ -143,27 +133,27 @@
           <p class="categoria">LUZ · ENERGÍA</p>
           <h3><a href="estrellas.html">Estrellas</a></h3>
           <p>
-            enormes esferas de gas muy caliente y plasma que emiten su propia luz y calor.
+            Enormes esferas de gas caliente y plasma que emiten su propia luz
+            y calor, y que atraviesan distintas etapas durante su evolución.
           </p>
           <a class="leer-mas" href="estrellas.html">
             Leer artículo <span>→</span>
           </a>
         </div>
       </article>
-      <article class="articulo articulo-invertido">
+
+      <article class="articulo">
         <a class="articulo-imagen" href="exploracion_espacial.html">
-          <img
-            src="exploracion_espacial.jpeg"
-            alt="Imagen de un planeta en el vacio"
-          >
+          <img src="exploracion_espacial.jpeg" alt="Imagen de un planeta en el espacio">
           <span class="flecha-imagen">↗</span>
         </a>
 
         <div class="articulo-info">
           <p class="categoria">EXPLORACIÓN · NUEVOS MUNDOS</p>
-          <h3><a href="exploracion_espacial.html">Explotación Espacial</a></h3>
+          <h3><a href="exploracion_espacial.html">Exploración espacial</a></h3>
           <p>
-            La exploración espacial es el esfuerzo científico y tecnológico para estudiar el cosmos mediante misiones tripuladas, satélites, sondas y telescopios.
+            El esfuerzo científico y tecnológico para estudiar el cosmos
+            mediante misiones tripuladas, satélites, sondas y telescopios.
           </p>
           <a class="leer-mas" href="exploracion_espacial.html">
             Leer artículo <span>→</span>
@@ -184,31 +174,13 @@
 
       <form id="formulario" class="formulario">
         <label for="nombre">Nombre</label>
-        <input
-          id="nombre"
-          name="nombre"
-          type="text"
-          placeholder="Tu nombre"
-          required
-        >
+        <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required>
 
         <label for="correo">Correo electrónico</label>
-        <input
-          id="correo"
-          name="correo"
-          type="email"
-          placeholder="tu@correo.com"
-          required
-        >
+        <input id="correo" name="correo" type="email" placeholder="tu@correo.com" required>
 
         <label for="texto-mensaje">Mensaje</label>
-        <textarea
-          id="texto-mensaje"
-          name="mensaje"
-          rows="4"
-          placeholder="Escribe tu mensaje..."
-          required
-        ></textarea>
+        <textarea id="texto-mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje..." required></textarea>
 
         <button class="boton boton-enviar" type="submit">
           Preparar correo en Gmail <span>↗</span>
@@ -220,10 +192,12 @@
   </main>
 
   <footer class="pie">
-        <a class="logo" href="index.html">HORIZONTE <span class="logo-punto">●</span> <span class="logo-secundario">de sucesos</span></a>
+    <a class="logo" href="index.html">
+      HORIZONTE <span class="logo-punto">●</span> <span class="logo-secundario">de sucesos</span>
+    </a>
 
-        <a href="agujeros_negros.html">Siguiente artículo: Agujeros Negros →</a>
-    </footer>
+    <a href="agujeros_negros.html">Siguiente artículo: Agujeros negros →</a>
+  </footer>
 
   <script>
     const formulario = document.getElementById("formulario");
@@ -248,15 +222,8 @@
         "&su=" + encodeURIComponent(asunto) +
         "&body=" + encodeURIComponent(cuerpo);
 
+      respuesta.textContent = "Abriendo Gmail con el mensaje preparado. Revísalo y pulsa Enviar allí.";
       window.location.href = url;
-
-      if (ventana) {
-        respuesta.textContent =
-          "Gmail se abrió con el mensaje preparado. Revísalo y pulsa Enviar allí.";
-      } else {
-        respuesta.textContent =
-          "Tu navegador bloqueó la ventana. Permite las ventanas emergentes para abrir Gmail.";
-      }
     });
   </script>
 </body>
